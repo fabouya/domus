@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<Domus>
+
+<ScheduledGPIO>
+	<InversedRelay>
+		<name>Pompe</name>
+		<gpio>GPIO_00</gpio>
+		<calendarFile>PompeCalendar</calendarFile>
+	</InversedRelay>
+	<InversedRelay>
+		<name>Robot</name>
+		<gpio>GPIO_06</gpio>
+		<calendarFile>RobotCalendar</calendarFile>
+	</InversedRelay>
+	<InversedRelay>
+		<name>Lumiere</name>
+		<gpio>GPIO_05</gpio>
+		<calendarFile>LumiereCalendar</calendarFile>
+	</InversedRelay>
+</ScheduledGPIO>
+
+</Domus>
