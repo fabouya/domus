@@ -18,7 +18,7 @@
 	</InversedRelay>
 	<InversedRelay>
 		<name>Lumiere</name>
-		<gpio>GPIO_05</gpio>
+		<gpio>GPIO_02</gpio>
 		<calendarFile>LumiereCalendar</calendarFile>
 	</InversedRelay>
 </ScheduledGPIO>
