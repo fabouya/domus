@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
 <Domus>
 
+<calendar name="PompeCalendar" file="pompe.ca"/>
+<calendar name="RobotCalendar" file="robot.ca"/>
+<calendar name="LumiereCalendar" file="lumiere.ca"/>
+
 <ScheduledGPIO>
 	<InversedRelay>
 		<name>Pompe</name>
