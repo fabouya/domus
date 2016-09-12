@@ -9,18 +9,20 @@
 	<InversedRelay>
 		<name>Pompe</name>
 		<gpio>GPIO_00</gpio>
-		<calendarFile>PompeCalendar</calendarFile>
 	</InversedRelay>
 	<InversedRelay>
 		<name>Robot</name>
 		<gpio>GPIO_06</gpio>
-		<calendarFile>RobotCalendar</calendarFile>
 	</InversedRelay>
 	<InversedRelay>
 		<name>Lumiere</name>
 		<gpio>GPIO_02</gpio>
-		<calendarFile>LumiereCalendar</calendarFile>
 	</InversedRelay>
 </ScheduledGPIO>
+
+<Scheduling item="Pompe" calendar="PompeCalendar" />
+<Scheduling item="Robot" calendar="RobotCalendar" />
+<Scheduling item="Lumiere" calendar="LumiereCalendar" />
+
 
 </Domus>
